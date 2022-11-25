@@ -5,13 +5,9 @@ int firstNumber = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите второе число: ");
 int secondNumber = Convert.ToInt32(Console.ReadLine());
 if(firstNumber > secondNumber)
-{
-    max = firstNumber;
-    min = secondNumber;
-    }
+{max = firstNumber;
+min = secondNumber;}
 else
-{
-    max = secondNumber;
-    min = firstNumber;
-    }
+{max = secondNumber;
+min = firstNumber;}
 Console.WriteLine("max = " + max + " и " + "min = " + min);
